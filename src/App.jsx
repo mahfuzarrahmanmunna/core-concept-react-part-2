@@ -1,6 +1,7 @@
 
 import './App.css'
 import Counter from './counter';
+import BatMan from './batman';
 
 function App() {
   function handleClick() {
@@ -13,6 +14,7 @@ function App() {
   return (
     <>
       <h1>Vite + React</h1>
+      <BatMan></BatMan>
       <Counter></Counter>
     </>
   )
